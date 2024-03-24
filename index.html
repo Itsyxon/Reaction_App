@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <button class="theme">Сменить тему</button>
+        <button class="github"><a href="https://github.com/Itsyxon" target="_blank">Автор</a></button>
+    </div>
+    <div class="title">
+        <h1>Reaction App </h1>
+        <h2>by Daniil Itsyxon</h2>
+    </div>
+    <div class="rules none">
+        <p>Приложение проверяет вашу реакцию</p>
+        <p>Нажмите на кнопку «Старт», когда будете готовы.</p>
+        <p>Успейте нажать на <span class="green">зелёный</span> круг до того, как он вновь станет <span
+                class="red">красным</span>.</p>
+        <button class="btn">Старт</button>
+    </div>
+    <div class="gameover none">
+        <p>Вы нажали на <span class="red">красный</span> круг :(</p>
+        <p>Попробуйте ещё раз!</p>
+        <p class="gameover__record">Ваш последний рекорд:
+            <span class="record">0</span>
+        </p>
+
+    </div>
+    <div class="score none">0</div>
+    <div class="block none"></div>
+    <div class="exit none">Закончить</div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

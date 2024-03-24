@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Inter:wght@100..900&family=Kadwa:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+p {
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    line-height: 1.5;
+    color: brown;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.navigation {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.navigation button {
+    cursor: pointer;
+    border: none;
+    color: white;
+    transition: 0.4s all;
+    padding: 5px 20px;
+    background: rgb(228, 84, 0);
+    border-radius: 20px;
+}
+
+.title {
+    transition: 1s all;
+}
+
+.block {
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.block-green {
+    background-color: rgb(0, 93, 0);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.none {
+    display: none !important;
+}
+
+.green {
+    color: lime;
+}
+
+.red {
+    color: brown;
+}
+
+.rules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 20px 60px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #222, #111);
+    border: none;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.4s all;
+    text-transform: uppercase;
+}
+
+.exit {
+    cursor: pointer;
+    border: none;
+    color: white;
+    transition: 0.4s all;
+    padding: 10px 20px;
+    background: brown;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.gameover {
+    text-align: center;
+}
+
+.gameover p {
+    line-height: 1.5;
+}
+
+.gameover__record {
+    margin-top: 10px;
+}
+
+.score {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.btn:active {
+    background: rgb(228, 84, 0);
+}
+
+.whitebody {
+    background-color: white !important;
+    color: black !important;
+}
