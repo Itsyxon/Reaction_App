@@ -14,7 +14,7 @@ function showItems() {
     setTimeout(() => {
       title.classList.add('none')
       rules.classList.remove('none')
-    }, 1000)
+    }, 3000)
   }
 }
 function game() {
