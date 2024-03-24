@@ -19,8 +19,8 @@ function showItems() {
   }
 }
 function game() {
-  let random = Math.random() * (7000 - 2000)
-  let greenRandom = Math.random() * (1000 - 200 + 1)
+  let random = Math.random() * 5000
+  let greenRandom = Math.random() * 700
   setTimeout(() => {
     block.classList.add('block-green')
     block.classList.remove('block')
@@ -59,7 +59,6 @@ block.addEventListener('click', () => {
 
 block.addEventListener('click', () => {
   if (block.classList == 'block-green') {
-    game()
     score.innerHTML = parseInt(score.innerHTML) + 1
     record.innerHTML = parseInt(score.innerHTML)
   }
