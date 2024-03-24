@@ -3,10 +3,11 @@ const block = document.querySelector('.block')
 const rules = document.querySelector('.rules')
 const btn = document.querySelector('.btn')
 const gameOver = document.querySelector('.gameover')
-let score = document.querySelector('.score')
-let record = document.querySelector('.record')
 const theme = document.querySelector('.theme')
 const exit = document.querySelector('.exit')
+let score = document.querySelector('.score')
+let record = document.querySelector('.record')
+
 window.onload = showItems()
 
 function showItems() {
