@@ -47,6 +47,7 @@ block.addEventListener('click', () => {
     gameOver.classList.remove('none')
     score.classList.add('none')
     exit.classList.add('none')
+    score.innerHTML = 0
     setTimeout(() => {
       gameOver.classList.add('none')
       rules.classList.remove('none')
@@ -77,4 +78,6 @@ exit.addEventListener('click', () => {
   btn.classList.remove('none')
   rules.classList.remove('none')
   exit.classList.add('none')
+  record.innerHTML = 0
+  score.innerHTML = 0
 })
